@@ -10,12 +10,12 @@ function pause(){
     video.pause();
 
 }
-function diminuir(){
+function aumentar(){
 
     audio.playbackRate += 0.1;
 
 }
-function aumentar(){
+function diminuir(){
 
     audio.playbackRate -= 0.1;
 
