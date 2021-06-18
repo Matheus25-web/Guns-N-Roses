@@ -1,0 +1,28 @@
+body{
+    
+    background-color: black;
+    
+}
+.container{
+    position: relative;
+    max-width: 480px ;
+    max-height: 230px;
+    border: solid rebeccapurple;
+    padding: 15px;
+    background-size: cover;
+    background-image: url(https://wallpapersfull.com/wallpapers/2019/guns-n-roses-wallpaper-15986.jpg);
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%)
+}
+.button{
+    position: relative;
+    width: 56px;
+    border-radius: 15px ;
+}
+.teste{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}

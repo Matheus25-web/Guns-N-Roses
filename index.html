@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guns N' Roses</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Imagens/guns.ico" type="image/x-icon">
+</head>
+<body>
+<h1 style="text-align: center; color: white;">Sweet Child O' Mine</h1>
+<div class="container">
+    
+    <video class="teste" id="1" width="400px" height="250px" src="/Imagens/videoplayback.mp4" poster="https://i.ytimg.com/vi/1w7OgIMMRc4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLC0yosGla4czxWrhHdpp1h2FEk9rw"></video>
+    
+    <div class="#">
+        
+        <img class="button" src="Imagens/play1.png" onclick="document.getElementById('1').play()"><br>
+        
+        <img class="button" src="/Imagens/pause1.png" onclick="document.getElementById('1').pause()"><br>
+        
+        <img class="button" src="/Imagens/menos.png" onclick="diminuir()"><br>
+
+        <img class="button" src="/Imagens/mais.png" onclick="aumentar()">
+        
+    </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
